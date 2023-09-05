@@ -24,6 +24,7 @@ body {
     padding: 15px 100px;
     max-width: fit-content;
     border-radius: 20px;
+    z-index: 1;
 }
 
 .nav a {
@@ -59,8 +60,18 @@ body {
     max-width: fit-content;
 }
 
-.test {
+
+
+.about{
+    margin: 90px;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
     border: 10px solid black;
+}
+.about p{
+    font-size: 25px ;
 }
 
 .footer{
@@ -70,9 +81,13 @@ body {
 }
 
 .heading{
-    margin-top: 90px;
+    margin-top: 20px;
+    padding-left: 100px;
     text-align: start;
     font-weight: bold;
     font-style: italic;
     font-size: 90px;
+}
+.test {
+    border: 10px solid black;
 }
