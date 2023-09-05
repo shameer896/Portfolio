@@ -93,11 +93,31 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
 }
+.p_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p_card{
+    background: white;
+    padding: 20px 30px;
+    max-width:fit-content;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.p_card:hover
+{
+    color: white;
+    background-color: black;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2), -8px -8px 15px rgba(0, 0, 0, 0.2);
+}
 
 
 img {
     border: 10px solid black;
     border-radius: 20px;
+    width: 300px;
 }
 
 .footer {
