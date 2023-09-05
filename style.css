@@ -89,7 +89,7 @@ body {
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(8px);
-    /* border: 10px solid black; */
+    border: 10px solid black;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -129,7 +129,7 @@ img {
     color: azure;
     display: flex;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content:space-evenly;
     align-items:initial;
     height: 300px;
     padding: 50px 50px;
@@ -147,6 +147,7 @@ img {
 
 ul{
     list-style: none;
+
 }
 
 .long {
