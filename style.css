@@ -88,26 +88,28 @@ body {
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(8px);
-    border: 10px solid black;
+    /* border: 10px solid black; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
-.p_container{
+
+.p_container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
 }
 
-.p_card{
+.p_card {
     background: white;
     padding: 20px 30px;
-    max-width:fit-content;
+    max-width: fit-content;
     border-radius: 20px;
     transition: 0.5s;
 }
 
-.p_card:hover
-{
+.p_card:hover {
     color: white;
     background-color: black;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2), -8px -8px 15px rgba(0, 0, 0, 0.2);
@@ -133,6 +135,10 @@ img {
     font-weight: bold;
     font-style: italic;
     font-size: 90px;
+}
+
+.long {
+    width: 500px;
 }
 
 .test {
