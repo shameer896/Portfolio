@@ -34,3 +34,15 @@ body {
     background-color: white;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
 }
+
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+.name h1{
+    font-style: italic;
+    font-size: 100px;
+}
