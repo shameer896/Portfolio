@@ -62,7 +62,7 @@ body {
 
 
 
-.about{
+.about {
     margin: 90px;
     padding: 40px;
     border-radius: 20px;
@@ -71,23 +71,42 @@ body {
     border: 10px solid black;
     transition: 0.5s;
 }
-.about p{
-    font-size: 25px ;
+
+.about p {
+    font-size: 25px;
 }
 
-.about:hover{
+.about:hover {
     color: white;
     background: black;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1), -8px -8px 8px rgba(0, 0, 0, 0.1);
 }
 
-.footer{
+.project {
+    margin: 90px;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(8px);
+    border: 10px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+img {
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
+.footer {
     background: black;
     color: azure;
     height: 300px;
 }
 
-.heading{
+.heading {
     margin-top: 20px;
     /* padding-left: 100px; */
     text-align: start;
@@ -95,6 +114,7 @@ body {
     font-style: italic;
     font-size: 90px;
 }
+
 .test {
     border: 10px solid black;
 }
