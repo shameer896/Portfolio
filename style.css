@@ -126,7 +126,13 @@ img {
 .footer {
     background: black;
     color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:initial;
     height: 400px;
+    padding: 50px 50px;
+    font-size: 20px;
 }
 
 .heading {
@@ -138,10 +144,30 @@ img {
     font-size: 90px;
 }
 
+ul{
+    list-style: none;
+}
+
 .long {
     width: 500px;
 }
 
 .test {
     border: 10px solid black;
+}
+
+.f_a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer div ul li{
+    padding: 20px 5px;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 200px;
+    margin: 10px 30px;
+    transition: 1s;
 }
