@@ -121,6 +121,7 @@ img {
     border: 10px solid black;
     border-radius: 20px;
     width: 300px;
+
 }
 
 .footer {
@@ -130,7 +131,7 @@ img {
     flex-wrap: wrap;
     justify-content:center;
     align-items:initial;
-    height: 400px;
+    height: 300px;
     padding: 50px 50px;
     font-size: 20px;
 }
@@ -150,10 +151,16 @@ ul{
 
 .long {
     width: 500px;
+    height: 300px;
 }
 
 .test {
     border: 10px solid black;
+}
+
+.head{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .f_a{
@@ -163,6 +170,7 @@ ul{
 
 .footer div ul li{
     padding: 20px 5px;
+    text-align: left;
 }
 
 .profile{
