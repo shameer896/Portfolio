@@ -68,3 +68,11 @@ body {
     color: azure;
     height: 300px;
 }
+
+.heading{
+    margin-top: 90px;
+    text-align: start;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 90px;
+}
