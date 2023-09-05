@@ -1,11 +1,11 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-size: cover;
-    background-image: linear-gradient(to right,#e6e6e9,#f2befc,#e6e6e9);
+    background-image: linear-gradient(to right, #e6e6e9, #f2befc, #e6e6e9);
 }
 
-.nav{
+.nav {
     font-size: 20px;
     margin: 10px auto;
     background: rgba(255, 255, 255, 0.3);
@@ -20,8 +20,9 @@ body{
     max-width: fit-content;
     border-radius: 20px;
 }
-.nav a{
-    background-color: rgb(255, 255, 255,0.7);
+
+.nav a {
+    background-color: rgb(255, 255, 255, 0.7);
     padding: 5px 15px;
     border-radius: 20px;
     text-decoration: none;
@@ -29,7 +30,7 @@ body{
     transition: 0.5s;
 }
 
-.nav a:hover{
+.nav a:hover {
     background-color: white;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1),-3px -3px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
 }
