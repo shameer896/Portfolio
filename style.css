@@ -1,5 +1,6 @@
 @media (min-width:856px) {
     body {
+        font-family: 'Kalam', cursive;
         margin: 0;
         padding: 0;
         text-align: center;
@@ -194,6 +195,7 @@
 
 @media (max-width:856px) {
     body {
+        font-family: 'Kalam', cursive;
         margin: 0;
         padding: 0;
         text-align: center;
