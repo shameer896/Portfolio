@@ -134,11 +134,10 @@
         color: azure;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: initial;
         padding: 50px 50px;
         font-size: 20px;
-        min-width: 670px;
         height: 100%;
     }
 
@@ -174,9 +173,8 @@
         color: white;
     }
 
-    .footer div ul li {
-        padding: 20px 5px;
-        text-align: left;
+    li{
+        margin-bottom: 20px;
     }
 
     .profile {
@@ -329,7 +327,7 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-items: initial;
         padding: 10px 10px;
         font-size: 20px;
@@ -368,9 +366,8 @@
         color: white;
     }
 
-    .footer div ul li {
-        margin-bottom: 10px;
-        text-align: left;
+    li{
+        margin-bottom: 20px;
     }
 
     .profile {
