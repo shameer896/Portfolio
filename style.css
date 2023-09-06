@@ -194,7 +194,6 @@
         text-align: center;
         background-size: cover;
         background-image: linear-gradient(to right, #e6e6e9, #c3c3e6, #e6e6e9);
-        min-width: 670px;
     }
 
     .nav {
