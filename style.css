@@ -330,7 +330,7 @@
         flex-wrap: wrap;
         flex-direction: row;
         gap: 5px;
-        justify-content: space-around;
+        justify-content: center;
         align-items: initial;
         padding: 10px 10px;
         font-size: 20px;
