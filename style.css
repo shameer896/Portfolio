@@ -37,6 +37,7 @@
         text-decoration: none;
         color: black;
         transition: 0.5s;
+        font-size: 25px;
     }
 
     .nav a:hover {
@@ -62,6 +63,7 @@
     .sub {
         margin: 30px auto;
         max-width: fit-content;
+        font-size: 20px;
     }
 
 
@@ -79,6 +81,7 @@
 
     .about p {
         font-size: 25px;
+        font-weight: bold;
     }
 
     .about:hover {
@@ -89,6 +92,7 @@
     .project {
         margin: 90px;
         padding: 40px;
+        font-size: 25px;
         border-radius: 20px;
         background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
@@ -140,7 +144,7 @@
         align-items: initial;
         gap: 20px;
         padding: 50px 50px;
-        font-size: 20px;
+        font-size: 25px;
         height: 100%;
     }
 
@@ -231,6 +235,7 @@
         border-radius: 20px;
         text-decoration: none;
         color: black;
+        font-weight: bold;
         transition: 0.5s;
     }
 
@@ -257,6 +262,7 @@
     .sub {
         margin: 30px auto;
         max-width: fit-content;
+        font-size: 6vw;
     }
 
 
@@ -272,7 +278,7 @@
     }
 
     .about p {
-        font-size: 20px;
+        font-size: 6vw;
     }
 
     .about:hover {
@@ -294,6 +300,7 @@
     }
 
     .p_container {
+        font-size: 6vw;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -308,6 +315,7 @@
         border-radius: 20px;
         transition: 0.5s;
         box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
+        font-weight: bold;
     }
 
     .p_card:hover {
@@ -338,6 +346,7 @@
         padding: 10px 10px;
         font-size: 20px;
         height: 100%;
+        font-size: 6vw;
     }
 
     .heading {
