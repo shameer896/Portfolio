@@ -297,6 +297,7 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         gap: 30px;
+        font-weight: bold;
     }
 
     .p_card {
