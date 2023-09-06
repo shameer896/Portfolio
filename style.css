@@ -11,7 +11,7 @@
     .nav {
         font-size: 20px;
         margin: 10px auto;
-        background: rgba(255, 255, 255, 0.3);
+        background: rgba(69, 69, 87, 0.3);
         backdrop-filter: blur(8px);
         display: flex;
         align-items: center;
@@ -30,7 +30,7 @@
     }
 
     .nav a {
-        background-color: rgb(255, 255, 255, 0.7);
+        background-color: rgb(255, 255, 255, 0.8);
         padding: 5px 15px;
         border-radius: 20px;
         text-decoration: none;
@@ -69,9 +69,10 @@
         margin: 90px;
         padding: 40px;
         border-radius: 20px;
-        background: rgba(255, 255, 255, 0.3);
+        background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
-        border: 10px solid black;
+        /* border: 10px solid rgb(0, 0, 0); */
+        box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
         transition: 0.5s;
     }
 
@@ -82,16 +83,15 @@
     .about:hover {
         color: white;
         background: black;
-        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1), -8px -8px 8px rgba(0, 0, 0, 0.1);
     }
 
     .project {
         margin: 90px;
         padding: 40px;
         border-radius: 20px;
-        background: rgba(255, 255, 255, 0.3);
+        background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
-        border: 10px solid black;
+        box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -109,13 +109,13 @@
         padding: 20px 30px;
         max-width: fit-content;
         border-radius: 20px;
+        box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
         transition: 0.5s;
     }
 
     .p_card:hover {
         color: white;
         background-color: black;
-        box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2), -8px -8px 15px rgba(0, 0, 0, 0.2);
     }
 
 
@@ -204,7 +204,7 @@
     .nav {
         font-size: 15px;
         margin: 10px auto;
-        background: rgba(255, 255, 255, 0.3);
+        background: rgba(69, 69, 87, 0.3);
         backdrop-filter: blur(8px);
         display: flex;
         align-items: center;
@@ -223,7 +223,7 @@
     }
 
     .nav a {
-        background-color: rgb(255, 255, 255, 0.7);
+        background-color: rgb(255, 255, 255, 0.8);
         padding: 5px 15px;
         border-radius: 20px;
         text-decoration: none;
@@ -259,12 +259,12 @@
 
 
     .about {
-        margin: 10px;
+        margin: 20px;
         padding: 10px;
         border-radius: 20px;
-        background: rgba(255, 255, 255, 0.3);
+        background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
-        border: 5px solid black;
+        box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
         transition: 0.5s;
     }
 
@@ -275,20 +275,19 @@
     .about:hover {
         color: white;
         background: black;
-        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1), -8px -8px 8px rgba(0, 0, 0, 0.1);
     }
 
     .project {
-        margin: 10px;
+        margin: 20px;
         padding: 10px;
         border-radius: 20px;
-        background: rgba(255, 255, 255, 0.3);
+        background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
-        border: 5px solid black;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         min-width: fit-content;
+        box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
     }
 
     .p_container {
@@ -304,12 +303,12 @@
         max-width: fit-content;
         border-radius: 20px;
         transition: 0.5s;
+        box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
     }
 
     .p_card:hover {
         color: white;
         background-color: black;
-        box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2), -8px -8px 15px rgba(0, 0, 0, 0.2);
     }
 
 
@@ -385,4 +384,6 @@
         font-size: 20px;
         padding: 10px;
     }
+
+
 }
