@@ -134,8 +134,9 @@
         color: azure;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         align-items: initial;
+        gap: 20px;
         padding: 50px 50px;
         font-size: 20px;
         height: 100%;
@@ -180,7 +181,7 @@
 
     .profile {
         border-radius: 50%;
-        width: 200px;
+        width: 100px;
         margin: 10px 30px;
         transition: 1s;
     }
