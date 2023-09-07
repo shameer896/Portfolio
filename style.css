@@ -211,7 +211,7 @@
     .nav {
         font-size: 15px;
         margin: 10px auto;
-        background: rgba(69, 69, 87, 0.3);
+        background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
         display: flex;
         align-items: center;
