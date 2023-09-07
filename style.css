@@ -262,6 +262,7 @@
     }
 
     .sub {
+        padding: 2vw;
         margin: 30px auto;
         max-width: fit-content;
         font-size: 4vw;
