@@ -390,8 +390,8 @@
 
     .profile {
         border-radius: 50%;
-        width: 100px;
-        margin: 10px 10px;
+        width: 20vw;
+        margin: 3vw;
         transition: 1s;
     }
 
