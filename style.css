@@ -27,6 +27,7 @@
         padding: 15px 100px;
         max-width: fit-content;
         border-radius: 20px;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
         z-index: 1;
     }
 
