@@ -10,21 +10,20 @@
     }
 
     .nav {
-        font-size: 20px;
-        margin: 10px auto;
+        font-size: 2vw;
+        margin: 20px auto;
         background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 3vw;
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
-        margin: 20px auto;
-        padding: 15px 100px;
+        padding: 1vw 6vw;
         max-width: fit-content;
         border-radius: 20px;
         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
@@ -38,7 +37,7 @@
         text-decoration: none;
         color: black;
         transition: 0.5s;
-        font-size: 25px;
+        font-size: 1.5vw;
     }
 
     .nav a:hover {
@@ -93,7 +92,6 @@
     .project {
         margin: 6vw;
         padding: 4vw;
-        font-size: 25px;
         border-radius: 20px;
         background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
@@ -113,7 +111,7 @@
 
     .p_card {
         background: white;
-        padding: 20px 30px;
+        padding: 2vw;
         max-width: fit-content;
         border-radius: 20px;
         box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
@@ -130,7 +128,7 @@
     img {
         border: 10px solid black;
         border-radius: 20px;
-        width: 300px;
+        width: 8wv;
 
     }
 
@@ -144,8 +142,8 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: initial;
-        gap: 20px;
-        padding: 50px 50px;
+        gap: 5vw;
+        padding: 3vw;
         font-size: 2vw;
         height: 100%;
     }
@@ -161,11 +159,13 @@
 
     ul {
         list-style: none;
+        padding: 0;
+        margin: 0;
     }
 
     .long {
-        width: 500px;
-        height: 300px;
+        width: 30vw;
+        height: 20vw;
     }
 
     .test {
@@ -173,7 +173,7 @@
     }
 
     .head {
-        font-size: 30px;
+        font-size: 5vw;
         font-weight: bold;
         cursor: none;
     }
@@ -183,16 +183,16 @@
         color: white;
     }
 
-    li{
-        margin-bottom: 20px;
+    li {
+        margin-bottom: 2vw;
     }
 
     .profile {
         border-radius: 50%;
-        width: 100px;
-        margin: 10px 30px;
+        width: 10vw;
         transition: 1s;
     }
+
     .icon {
         color: #ffffff;
         font-size: 50px;
@@ -384,7 +384,7 @@
         color: white;
     }
 
-    li{
+    li {
         margin-bottom: 20px;
     }
 
