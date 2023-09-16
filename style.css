@@ -227,7 +227,7 @@
         right: 0;
         padding: 2vw 3vw;
         max-width: fit-content;
-        border-radius: 10vw;
+        border-radius: 5vw;
         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
         z-index: 1;
     }
@@ -274,7 +274,7 @@
     .about {
         margin: 5vw;
         padding: 2.5vw;
-        border-radius: 20px;
+        border-radius: 5vw;
         background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
         box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
@@ -293,7 +293,7 @@
     .project {
         margin: 5vw;
         padding: 2.5vw;
-        border-radius: 20px;
+        border-radius: 5vw;
         background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
         display: flex;
@@ -316,7 +316,7 @@
         background: white;
         padding: 5vw;
         max-width: fit-content;
-        border-radius: 20px;
+        border-radius: 5vw;
         transition: 0.5s;
         box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
         font-weight: bold;
@@ -329,8 +329,8 @@
 
 
     img {
-        border: 5px solid black;
-        border-radius: 20px;
+        border: 1.5vw solid black;
+        border-radius: 5vw;
         width: 50vw;
 
     }
