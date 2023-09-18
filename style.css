@@ -1,4 +1,4 @@
-@media (min-width:426px) {
+@media (min-width:1023px) {
     body {
         font-family: 'Roboto', sans-serif;
         margin: 0;
@@ -209,7 +209,7 @@
     }
 }
 
-@media (max-width:426px) {
+@media (max-width:1023px) {
     body {
         font-family: 'Roboto', sans-serif;
         margin: 0;
@@ -292,11 +292,6 @@
     .about p {
         font-size: 3vw;
         font-weight: bold;
-    }
-
-    .about:hover {
-        color: white;
-        background: black;
     }
 
     .project {
