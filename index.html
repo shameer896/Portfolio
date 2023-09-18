@@ -17,6 +17,7 @@
 </head>
 
 <body>
+    <div id="loader" class="center"></div>
     <!-- navigation bar -->
     <div class="nav">
         <a href="#">Home</a>
@@ -57,14 +58,14 @@
         </h1>
         <div class="p_container">
             <div class="p_card">
-                <a href="https://shameer-calculator.netlify.app/" target="_blank"><img src="images/calculator.png" class="long"
-                        alt="calculator"></a>
+                <a href="https://shameer-calculator.netlify.app/" target="_blank"><img src="images/calculator.png"
+                        class="long" alt="calculator"></a>
                 <p>
                     A simple calculator created using HTML,<br>CSS and Javascript
                 </p>
             </div>
             <div class="p_card">
-                <a href="#" ><img class="long" src="images/agro.png" alt="calculator"></a>
+                <a href="#"><img class="long" src="images/agro.png" alt="calculator"></a>
                 <p>
                     A simple Add To Cart web application <br>using HTML,CSS Javascript and firebase
                 </p>
@@ -89,9 +90,11 @@
             <ul>
                 <li class="head">Contact Me</li>
                 <li><a class="f_a" href="mailto:shameerak896@gmail.com"><i class="fa-regular fa-envelope"
-                            style="color: #000000;padding-right: 10px;font-weight: bold;"></i>shameerak896@gmail.com</a></li>
+                            style="color: #000000;padding-right: 10px;font-weight: bold;"></i>shameerak896@gmail.com</a>
+                </li>
                 <li><a class="f_a" href="resume/ShameerAbdulKader_resume.pdf" target="_blank"><i
-                            class="fa-regular fa-file" style="color: #000000;padding-right: 10px;font-weight: bold"></i>My Resume</a>
+                            class="fa-regular fa-file"
+                            style="color: #000000;padding-right: 10px;font-weight: bold"></i>My Resume</a>
                 </li>
 
 
@@ -106,6 +109,21 @@
             <a href="https://github.com/shameer896" target="_blank"><i class="fa-brands fa-github icon"></i></a>
         </span>
     </div>
+    <script>
+        document.onreadystatechange = function () {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "#loader").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#loader").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+    </script>
 </body>
 
 </html>
