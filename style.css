@@ -134,6 +134,8 @@
     }
 
     .footer {
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
         right: 0;
         left: 0;
         bottom: 0;
@@ -337,6 +339,8 @@
     }
 
     .footer {
+        border-top-right-radius: 5vw;
+        border-top-left-radius: 5vw;
         margin-top: 8vw;
         right: 0;
         left: 0;
@@ -394,7 +398,8 @@
 
     .profile {
         border-radius: 50%;
-        width: 20vw;;
+        width: 20vw;
+        ;
         transition: 1s;
     }
 
