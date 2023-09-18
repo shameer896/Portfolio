@@ -268,7 +268,7 @@
 
     .sub {
         padding: 2vw;
-        margin: 30px auto;
+        margin: 3vw 2vw;
         max-width: fit-content;
         font-size: 3vw;
     }
@@ -389,6 +389,7 @@
     }
 
     .f_a {
+        font-weight: bold;
         text-decoration: none;
         color: rgb(0, 0, 0);
     }
