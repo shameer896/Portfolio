@@ -127,7 +127,7 @@
 
 
     img {
-        border: 10px solid black;
+        border: 0.5vw solid black;
         border-radius: 1vw;
         width: 25vw;
 
@@ -137,8 +137,9 @@
         right: 0;
         left: 0;
         bottom: 0;
-        background: black;
-        color: rgb(255, 255, 255);
+        background: rgba(69, 69, 87, 0.1);
+        backdrop-filter: blur(8px);
+        color: rgb(0, 0, 0);
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -181,7 +182,7 @@
 
     .f_a {
         text-decoration: none;
-        color: white;
+        color: rgb(0, 0, 0);
     }
 
     li {
@@ -195,7 +196,7 @@
     }
 
     .icon {
-        color: #ffffff;
+        color: #000000;
         font-size: 3vw;
         padding: 2vw;
     }
@@ -339,8 +340,9 @@
         right: 0;
         left: 0;
         bottom: 0;
-        background: black;
-        color: rgb(255, 255, 255);
+        background: rgba(69, 69, 87, 0.1);
+        backdrop-filter: blur(8px);
+        color: rgb(0, 0, 0);
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -382,7 +384,7 @@
 
     .f_a {
         text-decoration: none;
-        color: white;
+        color: rgb(0, 0, 0);
     }
 
     li {
@@ -396,7 +398,7 @@
     }
 
     .icon {
-        color: #ffffff;
+        color: #000000;
         font-size: 4vw;
         padding: 2vw;
     }
