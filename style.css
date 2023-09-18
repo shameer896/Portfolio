@@ -155,7 +155,7 @@
     }
 
     .heading {
-margin-top: 0;
+        margin-top: 0;
         /* padding-left: 100px; */
         text-align: start;
         font-weight: bold;
@@ -345,7 +345,8 @@ margin-top: 0;
     }
 
     .footer {
-        box-shadow: -3px -3px 10px rgba(69, 69, 87, 0.3);;
+        box-shadow: -4px -4px 10px rgba(69, 69, 87, 0.3);
+        ;
         border-top-right-radius: 5vw;
         border-top-left-radius: 5vw;
         margin-top: 6vw;
