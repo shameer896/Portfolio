@@ -1,4 +1,4 @@
-@media (min-width:856px) {
+@media (min-width:426px) {
     body {
         font-family: 'Roboto', sans-serif;
         margin: 0;
@@ -209,7 +209,7 @@
     }
 }
 
-@media (max-width:856px) {
+@media (max-width:426px) {
     body {
         font-family: 'Roboto', sans-serif;
         margin: 0;
