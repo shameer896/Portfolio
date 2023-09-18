@@ -26,7 +26,7 @@
         right: 0;
         padding: 1vw 6vw;
         max-width: fit-content;
-        border-radius: 1vw;
+        border-radius: 2vw;
         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
         z-index: 1;
     }
@@ -73,7 +73,7 @@
     .about {
         margin: 6vw;
         padding: 4vw;
-        border-radius: 1vw;
+        border-radius: 2vw;
         background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
         /* border: 10px solid rgb(0, 0, 0); */
@@ -94,7 +94,7 @@
     .project {
         margin: 6vw;
         padding: 4vw;
-        border-radius: 1vw;
+        border-radius: 2vw;
         background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
         box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
@@ -116,7 +116,7 @@
         backdrop-filter: blur(8px);
         padding: 2vw;
         max-width: fit-content;
-        border-radius: 1vw;
+        border-radius: 2vw;
         box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
         transition: 0.5s;
         font-weight: bold;
@@ -130,14 +130,15 @@
 
     img {
         border: 0.5vw solid black;
-        border-radius: 1vw;
+        border-radius: 2vw;
         width: 25vw;
 
     }
 
     .footer {
-        border-top-left-radius: 1vw;
-        border-top-right-radius: 1vw;
+        box-shadow: -4px -4px 10px rgba(69, 69, 87, 0.3);
+        border-top-left-radius: 2vw;
+        border-top-right-radius: 2vw;
         right: 0;
         left: 0;
         bottom: 0;
@@ -204,7 +205,7 @@
         font-weight: bold;
         color: #000000;
         font-size: 3vw;
-        padding: 2vw;
+        padding: 1vw;
     }
 }
 
