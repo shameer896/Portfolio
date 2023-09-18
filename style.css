@@ -216,7 +216,7 @@
     }
 
     .nav {
-        font-size: 4vw;
+        font-size: 3vw;
         margin: 10px auto;
         background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
@@ -263,14 +263,14 @@
     .name span {
         font-weight: bold;
         font-style: italic;
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     .sub {
         padding: 2vw;
         margin: 30px auto;
         max-width: fit-content;
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
 
@@ -286,7 +286,7 @@
     }
 
     .about p {
-        font-size: 5vw;
+        font-size: 3vw;
     }
 
     .about:hover {
@@ -308,7 +308,7 @@
     }
 
     .p_container {
-        font-size: 5vw;
+        font-size: 3vw;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -366,7 +366,7 @@
         text-align: start;
         font-weight: bold;
         font-style: italic;
-        font-size: 9vw;
+        font-size: 5vw;
     }
 
     ul {
