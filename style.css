@@ -201,6 +201,7 @@ margin-top: 0;
     }
 
     .icon {
+        font-weight: bold;
         color: #000000;
         font-size: 3vw;
         padding: 2vw;
@@ -410,6 +411,7 @@ margin-top: 0;
     }
 
     .icon {
+        font-weight: bold;
         color: #000000;
         font-size: 4vw;
         padding: 2vw;
