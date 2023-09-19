@@ -99,7 +99,6 @@
         border-radius: 2vw;
         background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
-        /* border: 10px solid rgb(0, 0, 0); */
         box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
         transition: 0.5s;
     }
