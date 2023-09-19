@@ -230,6 +230,9 @@
         font-size: 3vw;
         padding: 1vw;
     }
+    .icon:hover{
+        box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
+    }
 }
 
 @media (max-width:1023px) {
