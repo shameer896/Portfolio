@@ -100,7 +100,6 @@
         background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
         box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
-        transition: 0.5s;
     }
 
     .about p {
@@ -137,6 +136,7 @@
         box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
         transition: 0.5s;
         font-weight: bold;
+        transition: 0.5s;
     }
 
     .p_card:hover {
