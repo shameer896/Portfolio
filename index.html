@@ -16,7 +16,7 @@
     <title>Welcome</title>
 </head>
 
-<body onload="sendEmail()">
+<body>
     <!-- Splash Screen -->
     <div class="splash">
         <h3>Please wait...</h3>
@@ -120,15 +120,6 @@
                 document.querySelector('.splash').style.display = 'none'; // Hide splash screen
             }, 3000)
         })
-
-        function sendEmail() {
-            var email = "shameerak896@gmail.com"
-            var subject = "test"
-            var body = "Hello world"
-
-            document.write("<form name=" + form + " action=\"mailto:" + email + "\?subject=" + subject + "\&body=" + body + "\" method=\"post\" enctype=\"text/plain\"></form>");
-            document.form.submit();
-        }
     </script>
 </body>
 
