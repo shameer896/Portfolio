@@ -104,6 +104,7 @@
         background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
         box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
+        transition: 0.5s;
     }
 
     .about p {
@@ -144,8 +145,7 @@
     }
 
     .p_card:hover {
-        color: white;
-        background-color: black;
+        transform: scale(1.02);
     }
 
 
@@ -153,7 +153,6 @@
         border: 0.5vw solid black;
         border-radius: 2vw;
         width: 25vw;
-
     }
 
     .footer {
@@ -194,6 +193,7 @@
     .long {
         width: 30vw;
         height: 20vw;
+        overflow: hidden;
     }
 
     .test {
@@ -227,6 +227,10 @@
         color: #000000;
         font-size: 3vw;
         padding: 1vw;
+        transition: 0.5s;
+    }
+    .icon:hover{
+        transform: scale(1.2);
     }
 }
 
