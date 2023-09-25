@@ -87,8 +87,7 @@
     <!-- footer -->
     <div class="footer" id="foot">
         <span>
-            <a href="https://github.com/shameer896" target="_blank"><img class="profile" src="images/profile.png"
-                    alt=""></a>
+            <a onclick="easter_egg()"><img class="profile" src="images/profile.png" alt=""></a>
         </span>
         <span>
             <ul>
@@ -119,6 +118,16 @@
                 document.querySelector('.splash').style.display = 'none'; // Hide splash screen
             }, 3000)
         })
+
+        function easter_egg() {
+            let temp = document.querySelector('.profile');
+            temp.src = "images/easter.gif";
+            setTimeout(function () {
+                temp.src = "images/profile.png";
+            }, 4000)
+
+        }
+
     </script>
 </body>
 
