@@ -87,7 +87,7 @@
     <!-- footer -->
     <div class="footer" id="foot">
         <span>
-            <a onclick="easter_egg()"><img class="profile" src="images/profile.png" alt=""></a>
+           <img class="profile" src="images/profile.png" alt="">
         </span>
         <span>
             <ul>
@@ -118,16 +118,6 @@
                 document.querySelector('.splash').style.display = 'none'; // Hide splash screen
             }, 3000)
         })
-
-        function easter_egg() {
-            let temp = document.querySelector('.profile');
-            temp.src = "images/easter.jpg";
-            setTimeout(function () {
-                temp.src = "images/profile.png";
-            }, 500)
-
-        }
-
     </script>
 </body>
 
