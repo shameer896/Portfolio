@@ -408,6 +408,23 @@
         font-weight: bold;
     }
 
+    .more{
+        margin-top: 5vw;
+    }
+
+    .more-btn {
+        background-color: rgb(255, 255, 255, 0.8);
+        padding: 0.5vw 3vw;
+        border-radius: 20px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        transition: 0.5s;
+        font-weight: bold;
+        font-size: 3.5vw;
+        box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
+    }
+
     img {
         border: 1.5vw solid black;
         border-radius: 5vw;
