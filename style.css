@@ -59,17 +59,18 @@
 
     .nav a {
         background-color: rgb(255, 255, 255, 0.8);
-        padding: 5px 15px;
-        border-radius: 20px;
+        padding: 0.5vw 1vw;
+        border-radius: 2vw;
         text-decoration: none;
         color: black;
-        transition: 0.5s;
+        transition: 0.3s;
         font-size: 1.5vw;
     }
 
     .nav a:hover {
-        transform: scale(1.1);
         box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
+        background: rgb(0, 0, 0);
+        color: white;
     }
 
     .name {
@@ -131,8 +132,7 @@
     }
 
     .p_card {
-        background: rgba(255, 255, 255, 0.6);
-        backdrop-filter: blur(8px);
+        background-color: rgb(255, 255, 255, 0.8);
         padding: 2vw;
         max-width: fit-content;
         border-radius: 2vw;
@@ -152,6 +152,27 @@
         border: 0.5vw solid black;
         border-radius: 2vw;
         width: 25vw;
+    }
+
+    .more{
+        margin-top: 5vw;
+    }
+
+    .more-btn {
+        background-color: rgb(255, 255, 255, 0.8);
+        padding: 0.5vw 1vw;
+        border-radius: 2vw;
+        text-decoration: none;
+        color: black;
+        transition: 0.5s;
+        font-size: 1.5vw;
+        font-weight: bold;
+        box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
+    }
+
+    .more-btn:hover{
+        background: rgb(0, 0, 0);
+        color: white;
     }
 
     .footer {
