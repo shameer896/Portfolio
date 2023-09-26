@@ -282,6 +282,7 @@ ul {
     }
 
     .about {
+        font-size: 3vw;
         margin: 6vw;
         padding: 2.5vw;
         border-radius: 5vw;
@@ -289,7 +290,6 @@ ul {
 
     .about p {
         font-size: 3vw;
-
     }
 
     .project {
