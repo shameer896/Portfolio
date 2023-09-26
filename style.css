@@ -154,7 +154,7 @@
         width: 25vw;
     }
 
-    .more{
+    .more {
         margin-top: 5vw;
     }
 
@@ -170,7 +170,7 @@
         box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
     }
 
-    .more-btn:hover{
+    .more-btn:hover {
         background: rgb(0, 0, 0);
         color: white;
     }
@@ -408,7 +408,7 @@
         font-weight: bold;
     }
 
-    .more{
+    .more {
         margin-top: 5vw;
     }
 
