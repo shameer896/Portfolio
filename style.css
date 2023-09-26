@@ -3,18 +3,17 @@ html {
     user-select: none;
 }
 
-@media (min-width:1023px) {
+body {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, #e6e6e9, #c3c3e6, #e6e6e9);
+}
 
-    body {
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        background-size: cover;
-        background-image: linear-gradient(to right, #e6e6e9, #c3c3e6, #e6e6e9);
-        min-width: 670px;
-    }
-
+@media (min-width:768px) {
     .nav {
         font-size: 2vw;
         font-weight: bold;
@@ -190,12 +189,6 @@ html {
         margin: 0;
     }
 
-    .long {
-        width: 30vw;
-        height: 20vw;
-        overflow: hidden;
-    }
-
     .test {
         border: 10px solid black;
     }
@@ -236,19 +229,8 @@ html {
     }
 }
 
-@media (max-width:1023px) {
-    body {
-        scroll-behavior: smooth;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        background-size: cover;
-        background-image: linear-gradient(to right, #e6e6e9, #c3c3e6, #e6e6e9);
-    }
-
+@media (max-width:768px) {
     .nav {
-        font-size: 3.5vw;
         margin: 10px auto;
         background: rgba(69, 69, 87, 0.1);
         backdrop-filter: blur(8px);
@@ -269,6 +251,7 @@ html {
     }
 
     .nav a {
+        font-size: 3.5vw;
         background-color: rgb(255, 255, 255, 0.8);
         padding: 0.5vw 3vw;
         border-radius: 20px;
@@ -298,8 +281,6 @@ html {
         max-width: fit-content;
         font-size: 3vw;
     }
-
-
 
     .about {
         margin: 6vw;
@@ -370,12 +351,10 @@ html {
         border: 1.5vw solid black;
         border-radius: 5vw;
         width: 50vw;
-
     }
 
     .footer {
         box-shadow: -4px -4px 10px rgba(69, 69, 87, 0.3);
-        ;
         border-top-right-radius: 5vw;
         border-top-left-radius: 5vw;
         margin-top: 6vw;
@@ -444,6 +423,4 @@ html {
         font-size: 5vw;
         padding: 2vw;
     }
-
-
 }
