@@ -44,12 +44,6 @@ body {
     justify-content: space-around;
 }
 
-.nav a:hover {
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
-    background: rgb(0, 0, 0);
-    color: white;
-}
-
 .name span {
     font-style: italic;
 }
@@ -146,6 +140,12 @@ ul {
         padding: 0.5vw 1vw;
         border-radius: 2vw;
         font-size: 1.5vw;
+    }
+
+    .nav a:hover {
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
+    background: rgb(0, 0, 0);
+    color: white;
     }
 
     .name {
