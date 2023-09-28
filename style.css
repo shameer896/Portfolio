@@ -280,6 +280,10 @@ ul {
         border-radius: 5vw;
     }
 
+    .about p {
+        font-size: 3vw;
+    }
+
     .project {
         margin: 6vw;
         padding: 2.5vw;
