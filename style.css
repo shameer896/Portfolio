@@ -143,9 +143,9 @@ ul {
     }
 
     .nav a:hover {
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
-    background: rgb(0, 0, 0);
-    color: white;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
+        background: rgb(0, 0, 0);
+        color: white;
     }
 
     .name {
@@ -282,10 +282,6 @@ ul {
         margin: 6vw;
         padding: 2.5vw;
         border-radius: 5vw;
-    }
-
-    .about p {
-        font-size: 3vw;
     }
 
     .project {
