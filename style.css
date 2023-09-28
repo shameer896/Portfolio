@@ -10,11 +10,7 @@ body {
     padding: 0;
     text-align: center;
     background-size: cover;
-<<<<<<< HEAD
     background-image: linear-gradient(to right, #575A5E, #222823, #575A5E);
-=======
-    background-image: linear-gradient(to right, #e6e6e9, #c3c3e6, #e6e6e9);
->>>>>>> parent of 9d2b849 (Update style.css)
     font-weight: bold;
 }
 
