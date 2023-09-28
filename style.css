@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-image: linear-gradient(to right, #e6e6e9, #c3c3e6, #e6e6e9);
     font-weight: bold;
+    font-size: 1.5vw;
 }
 
 .nav {
@@ -139,13 +140,12 @@ ul {
     .nav a {
         padding: 0.5vw 1vw;
         border-radius: 2vw;
-        font-size: 1.5vw;
     }
 
     .nav a:hover {
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
-    background: rgb(0, 0, 0);
-    color: white;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1), -3px -3px 8px rgba(0, 0, 0, 0.1);
+        background: rgb(0, 0, 0);
+        color: white;
     }
 
     .name {
@@ -166,14 +166,12 @@ ul {
         margin: 6vw;
         padding: 4vw;
         border-radius: 2vw;
-        font-size: 1.5vw;
     }
 
     .project {
         margin: 6vw;
         padding: 4vw;
         border-radius: 2vw;
-        font-size: 1.5vw;
     }
 
     .p_container {
@@ -203,7 +201,6 @@ ul {
     .more-btn {
         padding: 0.5vw 1vw;
         border-radius: 2vw;
-        font-size: 1.5vw;
     }
 
     .more-btn:hover {
@@ -217,7 +214,6 @@ ul {
         border-top-right-radius: 2vw;
         gap: 5vw;
         padding: 3vw;
-        font-size: 1.5vw;
     }
 
     .heading {
@@ -227,7 +223,7 @@ ul {
 
     .head {
         font-size: 4vw;
-        cursor: none;
+        cursor: default;
     }
 
     li {
