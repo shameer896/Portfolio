@@ -343,7 +343,7 @@ ul {
     }
 
     .profile {
-        display: none;
+        width: 20vw;
     }
 
     .icon {
