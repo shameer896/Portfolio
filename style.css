@@ -58,6 +58,7 @@ body {
     box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
     transition: 0.5s;
     text-align: left;
+    line-height: 1.5;
 }
 
 .project {
