@@ -79,7 +79,6 @@ body {
 .p_card {
     background-color: rgb(255, 255, 255, 0.8);
     max-width: fit-content;
-    box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
     transition: 0.5s;
 }
 
@@ -88,8 +87,6 @@ body {
     text-decoration: none;
     color: black;
     transition: 0.5s;
-    box-shadow: 8px 8px 10px rgba(69, 69, 87, 0.3), -1px -1px 10px rgba(69, 69, 87, 0.3);
-
 }
 
 .footer {
