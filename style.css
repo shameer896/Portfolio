@@ -23,11 +23,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
-.name span {
-    font-style: italic;
-}
-
 .sub {
     max-width: fit-content;
     line-height: 1.5;
