@@ -22,6 +22,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    line-height: 1.5;
 }
 .sub {
     max-width: fit-content;
@@ -89,30 +90,26 @@ ul {
     color: rgb(0, 0, 0);
 }
 
-.profile {
-    border-radius: 50%;
-}
-
 .icon {
     color: #000000;
 }
 
 @media (min-width:768px) {
-
-    .name span {
-        font-size: 5vw;
+    .name-main {
+        font-size: 5vh;
+        margin-top: 1vh;
     }
 
-    .sub {
-        padding: 2vw;
-        margin: 30px auto;
-        font-size: 2vw;
+    .name-sub {
+        font-size: 2vh;
+        margin-top: 1.5vh;
     }
 
     .about {
-        margin: 6vw;
-        padding: 4vw;
-        border-radius: 2vw;
+        background-color: #EEABA2;
+        width: 100vw;
+        height: 100vh;
+        padding: 10vh 10vw;
         font-size: 1.5vw;
     }
 
@@ -135,12 +132,6 @@ ul {
     .p_card:hover {
         transform: scale(1.01);
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    img {
-        border: 0.5vw solid black;
-        border-radius: 2vw;
-        width: 25vw;
     }
 
     .more {
@@ -180,7 +171,7 @@ ul {
     }
 
     .profile {
-        width: 10vw;
+        width: 8vw;
     }
 
     .icon {
@@ -258,11 +249,11 @@ ul {
         font-size: 3.5vw;
     }
 
-    img {
+    /* img {
         border: 1vw solid black;
         border-radius: 5vw;
         width: 50vw;
-    }
+    } */
 
     .footer {
         border-top-right-radius: 5vw;
@@ -288,7 +279,7 @@ ul {
     }
 
     .profile {
-        width: 20vw;
+        width: 10vw;
     }
 
     .icon {
