@@ -204,7 +204,6 @@ ul {
     }
 
     .footer {
-        box-shadow: -4px -4px 10px rgba(69, 69, 87, 0.3);
         border-top-left-radius: 2vw;
         border-top-right-radius: 2vw;
         gap: 5vw;
