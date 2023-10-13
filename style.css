@@ -251,18 +251,18 @@ ul {
     .nav {
         margin: 10px auto;
         gap: 3vw;
-        padding: 2vw 3vw;
+        padding: 1vh 3vw;
         border-radius: 5vw;
     }
 
     .nav a {
         font-size: 3.5vw;
-        padding: 0.5vw 3vw;
+        padding: 0.5vh 3vw;
         border-radius: 20px;
     }
 
     .name {
-        margin-top: 20vw;
+        margin-top: 20vh;
     }
 
     .name span {
@@ -277,13 +277,13 @@ ul {
 
     .about {
         font-size: 3vw;
-        margin: 6vw;
+        margin: 0 6vw;
         padding: 2.5vw;
         border-radius: 5vw;
     }
 
     .project {
-        margin: 6vw;
+        margin: 6vh 6vw;
         padding: 2.5vw;
         border-radius: 5vw;
         min-width: fit-content;
@@ -320,7 +320,7 @@ ul {
     .footer {
         border-top-right-radius: 5vw;
         border-top-left-radius: 5vw;
-        margin-top: 6vw;
+        margin-top: 0 6vw;
         flex-direction: row;
         gap: 3vw;
         padding: 5vw;
