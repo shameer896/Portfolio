@@ -63,7 +63,6 @@ body {
 
 .project {
     background: rgba(69, 69, 87, 0.1);
-    backdrop-filter: blur(8px);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
