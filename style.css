@@ -55,7 +55,6 @@ body {
 
 .about {
     background: rgba(69, 69, 87, 0.1);
-    backdrop-filter: blur(8px);
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
     text-align: left;
