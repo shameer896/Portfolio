@@ -10,7 +10,7 @@ body {
     padding: 0;
     text-align: center;
     background-size: cover;
-    font-weight: bold;
+    box-sizing: border-box;
 }
 
 .name {
@@ -96,6 +96,7 @@ ul {
 
 @media (min-width:768px) {
     .name-main {
+        font-weight: bold;
         font-size: 5vh;
         margin-top: 1vh;
     }
@@ -107,10 +108,21 @@ ul {
 
     .about {
         background-color: #EEABA2;
-        width: 100vw;
-        height: 100vh;
+        height: 80vh;
         padding: 10vh 10vw;
-        font-size: 1.5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-sub{
+        font-size: 2vh;
+    }
+
+    .about-para{
+        margin-top: 10px;
+        line-height: 1.5;
+        font-size: 5vh;
     }
 
     .project {
