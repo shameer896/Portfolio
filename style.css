@@ -24,79 +24,47 @@ body {
     justify-content: center;
     line-height: 1.5;
 }
-.sub {
-    max-width: fit-content;
-    line-height: 1.5;
+
+.name-main {
+    font-weight: bold;
 }
 
 .about {
-    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.1);
+    background-color: #EEABA2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     transition: 0.5s;
     text-align: left;
-    line-height: 1.5;
 }
 
 .project {
-    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.1);
+    background-color: rgb(226, 244, 252);
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    justify-content:start;
 }
 
-.p_container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.project-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
-.p_card {
-    background-color: rgb(255, 255, 255, 0.8);
-    max-width: fit-content;
-    transition: 0.3s;
+.footer
+{
+    background-color: black;
+    color: white;
 }
 
-.more-btn {
-    background-color: rgb(255, 255, 255, 0.8);
+.footer a{
+    color: white;
     text-decoration: none;
-    color: black;
-    transition: 0.3s;
 }
 
-.footer {
-    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.1);
-    right: 0;
-    left: 0;
-    bottom: 0;
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: 100%;
-}
-
-.heading {
-    text-align: start;
-    font-style: italic;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.f_a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
-.icon {
-    color: #000000;
-}
 
 @media (min-width:768px) {
     .name-main {
-        font-weight: bold;
         font-size: 5vh;
         margin-top: 1vh;
     }
@@ -107,93 +75,65 @@ ul {
     }
 
     .about {
-        background-color: #EEABA2;
         height: 80vh;
         padding: 10vh 10vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
-    .about-sub{
+    .about-sub {
         font-size: 2vh;
     }
 
-    .about-para{
+    .about-para {
         margin-top: 10px;
         line-height: 1.5;
         font-size: 5vh;
     }
 
     .project {
-        margin: 6vw;
-        padding: 4vw;
-        border-radius: 2vw;
-        font-size: 1.5vw;
+        height: 80vh;
+        padding: 10vh 10vw;
+        padding: 10vw;
+        gap: 20vh;
     }
 
-    .p_container {
-        gap: 2vw;
+    .project-head{
+        font-weight: bold;
+        font-size: 5vh;
     }
 
-    .p_card {
+    .project-container{
+        gap: 6vw;
+    }
+
+    .project-card{
+        background-color: rgb(255, 255, 255);
         padding: 2vw;
-        border-radius: 2vw;
+        border-radius: 5px;
     }
 
-    .p_card:hover {
-        transform: scale(1.01);
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    .project-container img{
+        width: 20vw;
+        background-size: cover;
     }
 
-    .more {
-        margin-top: 5vw;
+    .project-container p{
+        font-size: 2vh;
+        line-height: 1.5;
     }
 
-    .more-btn {
-        padding: 0.5vw 1vw;
-        border-radius: 2vw;
-        font-size: 1.5vw;
+    .footer
+    {
+        padding: 10vw;
+        height: 20vh;
     }
 
-    .more-btn:hover {
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    .footer {
-        border-top-left-radius: 2vw;
-        border-top-right-radius: 2vw;
-        gap: 5vw;
-        padding: 3vw;
-        font-size: 1.5vw;
-    }
-
-    .heading {
-        margin-top: 0;
-        font-size: 4vw;
-    }
-
-    .head {
-        font-size: 4vw;
-        cursor: none;
-    }
-
-    li {
-        margin-bottom: 2vw;
+    .footer-q{
+        line-height: 1.5;
+        font-size: 2vw;
     }
 
     .profile {
         width: 8vw;
-    }
-
-    .icon {
-        font-size: 3vw;
-        padding: 1vw;
-        transition: 0.5s;
-    }
-
-    .icon:hover {
-        transform: scale(1.2);
     }
 }
 
