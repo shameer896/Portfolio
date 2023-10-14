@@ -13,11 +13,13 @@ body {
     box-sizing: border-box;
 }
 
-.name {
+header{
     background-image: url("images/name.jpg");
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
+    height: 70vh;
+    background-size: cover
+}
+
+.hero-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,42 +44,60 @@ body {
     background-color: rgb(226, 244, 252);
     display: flex;
     flex-direction: column;
-    justify-content:start;
+    justify-content: start;
 }
 
-.project-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer
-{
+.footer {
     background-color: black;
     color: white;
 }
 
-.footer a{
+.footer a {
     color: white;
     text-decoration: none;
 }
 
-.social{
+.social {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-@media (min-width:768px) {
+@media (min-width:475px) {}
+
+@media (min-width:640px) {}
+
+@media (min-width:768px) {}
+
+@media (min-width:1024px) {}
+
+@media (min-width:1280px) {}
+
+@media (min-width:1536px) {
+
+    .hero-container{
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 1536px;
+        padding: 20px;
+        border: 2px solid red;
+    }
+
     .name-main {
-        font-size: 5vh;
-        margin-top: 1vh;
+        font-size: 100px;
+        margin-top: 15px;
     }
 
     .name-sub {
-        font-size: 2vh;
-        margin-top: 1.5vh;
+        font-size: 40px;
+        margin-top: 15px;
     }
 
     .about {
@@ -102,156 +122,52 @@ body {
         gap: 20vh;
     }
 
-    .project-head{
+    .project-head {
         font-weight: bold;
         font-size: 5vh;
     }
 
-    .project-container{
+    .project-container {
         gap: 6vw;
     }
 
-    .project-card{
+    .project-card {
         background-color: rgb(255, 255, 255);
         padding: 2vw;
         border-radius: 5px;
         text-align: left;
     }
 
-    .project-container img{
+    .project-container img {
         width: 20vw;
         background-size: cover;
     }
 
-    .project-container p{
+    .project-container p {
         font-size: 2vh;
         line-height: 1.5;
     }
 
-    .footer
-    {
+    .footer {
         padding: 4vw;
     }
 
-    .footer-q{
+    .footer-q {
         line-height: 1.5;
         font-size: 2vw;
     }
 
-    .email{
+    .email {
         padding: 3vh;
     }
 
-    .social{
+    .social {
         margin-top: 8vh;
         font-size: 2vw;
         gap: 3vw;
     }
 
     .profile {
-        width: 8vw;
-    }
-}
-
-@media (max-width:768px) {
-    .nav {
-        margin: 10px auto;
-        gap: 3vw;
-        padding: 1vh 3vw;
-        border-radius: 5vw;
-    }
-
-    .nav a {
-        font-size: 3.5vw;
-        padding: 0.5vh 3vw;
-        border-radius: 20px;
-    }
-
-    .name {
-        margin-top: 12vh;
-    }
-
-    .name span {
-        font-size: 8vw;
-    }
-
-    .sub {
-        padding: 2vw;
-        margin: 3vw 2vw;
-        font-size: 3vw;
-    }
-
-    .about {
-        font-size: 3vw;
-        margin: 6vh 6vw;
-        padding: 2.5vw;
-        border-radius: 5vw;
-    }
-
-    .project {
-        margin: 6vh 6vw;
-        padding: 2.5vw;
-        border-radius: 5vw;
-        min-width: fit-content;
-    }
-
-    .p_container {
-        font-size: 3vw;
-        gap: 5vw;
-
-    }
-
-    .p_card {
-        padding: 5vw;
-        border-radius: 5vw;
-    }
-
-    .more {
-        margin-top: 5vw;
-        margin-bottom: 3vw;
-    }
-
-    .more-btn {
-        padding: 0.5vw 3vw;
-        border-radius: 20px;
-        font-size: 3.5vw;
-    }
-
-    /* img {
-        border: 1vw solid black;
-        border-radius: 5vw;
-        width: 50vw;
-    } */
-
-    .footer {
-        border-top-right-radius: 5vw;
-        border-top-left-radius: 5vw;
-        margin-top: 0 6vw;
-        flex-direction: row;
-        gap: 3vw;
-        padding: 5vw;
-        font-size: 3vw;
-    }
-
-    .heading {
-        margin-top: 3vw;
-        font-size: 5vw;
-    }
-
-    .head {
-        font-size: 6vw;
-    }
-
-    li {
-        margin-bottom: 20px;
-    }
-
-    .profile {
-        width: 10vw;
-    }
-
-    .icon {
-        font-size: 5vw;
-        padding: 2vw;
+        width: 200px;
     }
 }
