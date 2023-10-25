@@ -11,6 +11,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
+  font: 65.2%;
 }
 
 p {
@@ -19,6 +20,38 @@ p {
 
 /* Transitions */
 
-a,.btn{
+a,
+.btn {
   transition: all 300 ms ease;
+}
+
+/* Navigation */
+
+nav,
+.nav-link {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+}
+
+.nav-link {
+  gap: 2rem;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: white;
+  color: black;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
 }
