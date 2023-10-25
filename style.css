@@ -25,7 +25,7 @@ a,
   transition: all 300 ms ease;
 }
 
-/* Navigation */
+/*Desktop Navigation */
 
 nav,
 .nav-link {
@@ -63,4 +63,42 @@ a:hover {
 
 .logo:hover {
   cursor: default;
+}
+
+/* Hambuger Menu */
+
+#hamburger-nav {
+  display: none;
+}
+
+.hamburger-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hamburger-icon {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  width: 24px;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.hamburger-icon span {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-link {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  width: fit-content;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
 }
