@@ -14,7 +14,7 @@
     <title>My Portfolio</title>
   </head>
   <body>
-    <nav id="nav">
+    <nav id="desktop-nav">
       <div class="logo">Shameer</div>
       <div>
         <ul class="nav-link">
@@ -22,6 +22,21 @@
           <li><a href="#contact">Contacts</a></li>
           <li><a href="#projects">Projects</a></li>
         </ul>
+      </div>
+    </nav>
+    <nav class="hamburger-nav">
+      <div class="logo">Shameer</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-link">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        </div>
       </div>
     </nav>
     <script src="script.js"></script>
