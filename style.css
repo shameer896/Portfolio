@@ -11,7 +11,6 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  font-size: 65.2%;
 }
 
 p {
@@ -153,6 +152,10 @@ section {
   min-height: fit-content;
 }
 
+.section-container {
+  display: flex;
+}
+
 /* Profile */
 
 #profile {
@@ -178,8 +181,8 @@ section {
   font-weight: 600;
 }
 
-.section_text_p1{
-  font-size:1rem ;
+.section_text_p1 {
+  text-align: center;
 }
 
 .section_text_p2 {
@@ -209,13 +212,13 @@ section {
 
 /* Buttom */
 
-.btn-container{
+.btn-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
 
-.btn{
+.btn {
   font-weight: 600;
   transition: all 0.3s ease;
   padding: 1rem;
@@ -223,27 +226,82 @@ section {
   border-radius: 2rem;
 }
 
-.btn-color-2,.btn-color-1{
-  border: rgb(53,53,53) 0.1rem solid;
+.btn-color-2,
+.btn-color-1 {
+  border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-.btn-color-2:hover,.btn-color-1:hover{
+.btn-color-2:hover,
+.btn-color-1:hover {
   cursor: pointer;
 }
 
-.btn-color-2:hover,.btn-color-1{
-  background-color: rgb(53,53,53);
+.btn-color-2:hover,
+.btn-color-1 {
+  background-color: rgb(53, 53, 53);
   color: white;
 }
 
-.btn-color-1:hover{
+.btn-color-1:hover {
   background-color: black;
 }
 
-.btn-color-2{
-  background:none;
+.btn-color-2 {
+  background: none;
 }
 
-.btn-color-2:hover{
-  border: rgb(255,255,255) 0.1rem solid;
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+/* About */
+
+#about {
+  position: relative;
+}
+
+.about-container {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-container,
+.about-details-container {
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  text-align: center;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
+}
+
+.section_pic-container {
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
 }
