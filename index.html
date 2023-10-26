@@ -1,90 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/profile.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-</head>
-
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>My Portfolio</title>
+  </head>
+  <body>
     <header>
-        <div class="hero-container">
-            <span>
-                <img class="profile" src="images/profile.png" alt="">
-            </span>
-            <span class="name-main">I'm Shameer</span>
-            <span class="name-sub">I'm passionate about crafting experiences that are engaging, accessible, and
-                user-centric</span>
+      <nav id="desktop-nav">
+        <div class="logo">Shameer</div>
+        <div>
+          <ul class="nav-link">
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contacts</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
         </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Shameer</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-link">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          </div>
+        </div>
+      </nav>
     </header>
 
-
-
-    <!-- about -->
-    <div class="about">
-        <span class="about-sub">
-            HELLO EVERYONE
-        </span>
-        <span class="about-para">I'm a 22-year-old enthusiast with a fervor for crafting code and sipping on chai, often
-            simultaneously, Whether it's solving complex problems, or simply embracing the art of
-            creation, I thrive on the endless possibilities that the world of technology offers.</span>
-    </div>
-
-    <!-- what i do -->
-    <div class="project">
-        <span class="project-head">PROJECTS</span>
-        <div class="project-container">
-            <div class="project-card">
-                <a href="https://github.com/shameer896/Calculator#calculator" target="_blank"><img
-                        src="images/calculator.png" class="long" alt="calculator"></a>
-                <p>
-                    A simple calculator created using HTML, CSS and Javascript
-                </p>
-            </div>
-
-            <div class="project-card">
-                <a href="#"><img class="long" src="images/add to cart.png" alt="calculator"></a>
-                <p>
-                    A simple Add To Cart web application using HTML,CSS Javascript and firebase
-                </p>
-            </div>
-
-            <div class="project-card">
-                <a href="#"><img class="long" src="images/agro.png" alt="calculator"></a>
-                <p>
-                    A simple Add To Cart web application using HTML,CSS Javascript and firebase
-                </p>
-            </div>
+    <main>
+      <section id="profile">
+        <div class="section_pic-container">
+          <img src="./assets/profile-pic.png" alt="shameer's profile picture" />
         </div>
-    </div>
-    <div class="footer">
-        <span class="footer-q">
-            Let's build beautiful,<br> meaningful things together
-        </span>
-        <div class="email">
-            <a href="mailto:shameerak896@gmail.com">shameerak896@gmail.com</a>
+
+        <div class="section_text">
+          <p class="section_text_p1">Hello, I'm</p>
+          <h1 class="title">Shameer</h1>
+          <p class="section_text_p2">Developer</p>
+
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/ShameerAbdulKader_resume.pdf')"
+            >
+              My Resume
+            </button>
+            <button
+              class="btn btn-color-1"
+              onclick="location.href='./#contact'"
+            >
+              Contact Info
+            </button>
+          </div>
+
+          <div class="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My linkedin account"
+              class="icon"
+              onclick="location.href='./#'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My github account"
+              class="icon"
+              onclick="location.href='./#'"
+            />
+          </div>
         </div>
-        <a href="resume/ShameerAbdulKader_resume.pdf" target="_blank">My Resume</a>
+      </section>
 
-        <div class="social">
+      <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section_pic-container">
+            <img src="assets/about-pic.png" alt="About pic" class="about-pic" />
+          </div>
 
-            <a href="https://www.linkedin.com/in/shameerak896/" target="_blank"><i
-                    class="fa-brands fa-linkedin icon"></i></a>
-            <a href="https://www.instagram.com/shameer_896/" target="_blank"><i
-                    class="fa-brands fa-instagram icon"></i></a>
-            <a href="https://t.me/Giyu_Tomioka_0" target="_blank"><i class="fa-brands fa-telegram icon"></i></a>
-            <a href="https://github.com/shameer896" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+          <div class="about-details-container">
+            <div class="about-container">
+              <div class="details-container">
+                <img
+                  src="assets/experience.png"
+                  alt="experience"
+                  class="icon"
+                />
+                <h2>Experience</h2>
+                <p>
+                  Aspiring <br />
+                  Software Engineer
+                </p>
+              </div>
 
+              <div class="details-container">
+                <img src="assets/education.png" alt="education" class="icon" />
+                <h2>Experience</h2>
+                <p>
+                  B.E <br />
+                  Bachelors Degree
+                </p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
+                velit, enim facilis, aspernatur sed inventore accusamus mollitia
+                consequuntur nulla possimus ipsum laudantium cum dolorem
+                pariatur hic illum repellendus odio rerum, aliquid amet omnis
+                dolores. Exercitationem, neque? Commodi odio officia quos sed
+                culpa? Asperiores, natus ad nobis aliquam et aperiam explicabo?
+              </p>
+            </div>
+          </div>
         </div>
-    </div>
+        <img src="assets/arrow.png" alt="arrow icon" class="icon arrow">
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
