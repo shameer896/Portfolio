@@ -334,40 +334,91 @@ section {
   gap: 2.5rem;
 }
 
-article{
+article {
   display: flex;
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;
 }
 
-article .icon{
+article .icon {
   cursor: pointer;
 }
 
 /* Project */
 
-#projects{
-  position: absolute;
+#projects {
+  position: relative;
 }
 
-.color-container{
+.color-container {
   border-color: rgb(163, 163, 163);
   background-color: white;
 }
 
-.project-img{
+.project-img {
   height: 90%;
   width: 90%;
   border-radius: 2rem;
 }
 
-.project-title{
+.project-title {
   margin: 1rem;
   color: black;
 }
 
-.project-btn{
+.project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+/* Contact */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.conact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+/* Footer */
+
+footer{
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p{
+  text-align: center;
 }
