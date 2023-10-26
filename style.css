@@ -305,3 +305,69 @@ section {
   width: 400px;
   margin: auto 0;
 }
+
+/* Experience */
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-deatils-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: initial;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 2.5rem;
+}
+
+article{
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon{
+  cursor: pointer;
+}
+
+/* Project */
+
+#projects{
+  position: absolute;
+}
+
+.color-container{
+  border-color: rgb(163, 163, 163);
+  background-color: white;
+}
+
+.project-img{
+  height: 90%;
+  width: 90%;
+  border-radius: 2rem;
+}
+
+.project-title{
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn{
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
