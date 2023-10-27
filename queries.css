@@ -42,8 +42,8 @@
     height: 275px;
     margin: 0 auto 2rem;
   }
-  .about-container {
-    margin-top: 0;
+  .about {
+    display: none;
   }
 }
 
