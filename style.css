@@ -116,6 +116,7 @@ a:hover {
 }
 
 .menu-link.open {
+  border: rgb(53, 53, 53) 0.1rem solid;
   max-height: 300px;
 }
 
